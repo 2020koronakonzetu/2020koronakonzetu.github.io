@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>駐輪場 精算ページ</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; padding: 30px; background-color: #f8f9fa; }
+    .container { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); max-width: 400px; margin: 0 auto; }
+    .price { font-size: 24px; font-weight: bold; color: #333; }
+    .btn { background: #007bff; color: white; padding: 15px 20px; text-decoration: none; border-radius: 5px; display: block; margin-top: 20px; font-weight: bold; }
+    .warning { font-size: 12px; color: #dc3545; margin-top: 20px; text-align: left; line-height: 1.5; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>駐輪料金の精算</h2>
+    <p class="price">料金: 5500円</p>
+    <p>決済完了後、画面にロックの「解除ナンバー」が表示されます。</p>
+    
+    <!-- 下記のURLを、後述するStripeの決済リンクに書き換えます -->
+    <a href="[https://buy.stripe.com/test_eVqaEX6pj5gp62TcLO0Ba00](https://buy.stripe.com/test_eVqaEX6pj5gp62TcLO0Ba00)" class="btn">料金支払い</a>
+    
+    <div class="warning">
+      【利用規約・違約金について】<br>
+      ※ダイヤルロックを回収ボックスに返却せず持ち去った場合や、破損させた場合は、器物損壊として刑事告訴いたします。支払いに進むことで本規約に同意したものとみなします。
+    </div>
+  </div>
+</body>
+</html>
